@@ -22,7 +22,8 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  // @ts-ignore - Vite exposes env variables on the special import.meta.env object
+  base: import.meta.env.BASE_URL,
   routes
 })
 
