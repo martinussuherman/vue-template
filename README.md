@@ -1,4 +1,8 @@
-# vue-template
+# Vue2 + Typescript + Vite Starter Template
+
+Starter template example for Vue2 + Typescript + Vite.
+
+Note: Using pnpm for package manager.
 
 ## Project setup
 ```
