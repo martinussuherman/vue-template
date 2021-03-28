@@ -10,6 +10,8 @@ const config = defineConfig({
     },
   },
 
+  base: "/vue-template/",
+
   build: {
     minify: true,
   },
