@@ -16,7 +16,7 @@ jobs:
           version: 5.16.0
           run_install: true
 
-      - name: Build 
+      - name: Build
         run: pnpm run build
 
       - name: Deploy
